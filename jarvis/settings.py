@@ -78,8 +78,8 @@ SOCIALACCOUNT_PROVIDERS = {
             "access_type": "online",
         },
         'APP': {
-            'client_id': '575891602131-0sl38h388svbvjehmom26fno2kk5bn1n.apps.googleusercontent.com',
-            'secret': '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',
+            'client_id': '#',
+            'secret': '#',
             'key': ''
         }
     },
@@ -89,8 +89,8 @@ SOCIALACCOUNT_PROVIDERS = {
             'scope': 'user:email',
         },
         'APP': {
-            'client_id': '2489d6ef85b22cf62f52',
-            'secret': 'f569cc7acdffe295964341fea7b6e13e922980e4',
+            'client_id': '#',
+            'secret': '#',
             'key': ''
         }
     }
@@ -106,19 +106,7 @@ LOGIN_REDIRECT_URL = "/"
 ACCOUNT_EMAIL_VERIFICATION = "none"  # new
 
 
-# SOCIALACCOUNT_PROVIDERS = {
-#     'github': {
-#         'SCOPE': ['user'],
-#         'AUTH_PARAMS': {
-#             'scope': 'user:email',
-#         },
-#         'APP': {
-#             'client_id': '2489d6ef85b22cf62f52',
-#             'secret': 'f569cc7acdffe295964341fea7b6e13e922980e4',
-#             'key': ''
-#         }
-#     }
-# }
+
 
 
 import os
@@ -215,5 +203,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'sharmaji8991mayank@gmail.com'  # Your Gmail username
-EMAIL_HOST_PASSWORD = 'mbpbbobleiasfdft'  # Your Gmail password or app password 
+EMAIL_HOST_PASSWORD = '#'  # Your Gmail password or app password 
 EMAIL_USE_SSL = False
