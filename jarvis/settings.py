@@ -16,6 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -23,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ql)(+xkzabkw*896vf#i9rjr0ga^&uiz1z)t@hk659!h4c(8d1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 SITE_ID = 3
 
@@ -78,8 +79,8 @@ SOCIALACCOUNT_PROVIDERS = {
             "access_type": "online",
         },
         'APP': {
-            'client_id': '#',
-            'secret': '#',
+            'client_id': '575891602131-0sl38h388svbvjehmom26fno2kk5bn1n.apps.googleusercontent.com',
+            'secret': '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',
             'key': ''
         }
     },
@@ -89,8 +90,8 @@ SOCIALACCOUNT_PROVIDERS = {
             'scope': 'user:email',
         },
         'APP': {
-            'client_id': '#',
-            'secret': '#',
+            'client_id': '2489d6ef85b22cf62f52',
+            'secret': 'f569cc7acdffe295964341fea7b6e13e922980e4',
             'key': ''
         }
     }
@@ -176,7 +177,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -203,5 +204,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'sharmaji8991mayank@gmail.com'  # Your Gmail username
-EMAIL_HOST_PASSWORD = '#'  # Your Gmail password or app password 
+EMAIL_HOST_PASSWORD = 'mbpbbobleiasfdft'  # Your Gmail password or app password 
 EMAIL_USE_SSL = False
