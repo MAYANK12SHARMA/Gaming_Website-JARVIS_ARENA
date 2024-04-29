@@ -16,7 +16,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -107,7 +106,19 @@ LOGIN_REDIRECT_URL = "/"
 ACCOUNT_EMAIL_VERIFICATION = "none"  # new
 
 
-
+# SOCIALACCOUNT_PROVIDERS = {
+#     'github': {
+#         'SCOPE': ['user'],
+#         'AUTH_PARAMS': {
+#             'scope': 'user:email',
+#         },
+#         'APP': {
+#             'client_id': '2489d6ef85b22cf62f52',
+#             'secret': 'f569cc7acdffe295964341fea7b6e13e922980e4',
+#             'key': ''
+#         }
+#     }
+# }
 
 
 import os
